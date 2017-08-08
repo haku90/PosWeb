@@ -19,4 +19,9 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PosWeb.Repositories\PosWeb.Repositories.csproj" />
+    <ProjectReference Include="..\PosWeb.Models\PosWeb.Models.csproj" />
+    <ProjectReference Include="..\PosWeb.Services\PosWeb.Services.csproj" />
+  </ItemGroup>
 </Project>

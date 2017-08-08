@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{05A1FA1C-AADC-43F6-A69F-7ACAA0F23AAF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PosWeb/Startup.cs">
+    <Files>
+      <File FileName="PosWeb.Repositories/Infrastructure/AbstractDbContext.cs" Line="18" Column="47" />
+      <File FileName="PosWeb.Models/Infratructure/ITrackedEntity.cs" Line="10" Column="3" />
+      <File FileName="PosWeb.Repositories/Infrastructure/EntityMappingConfig.cs" Line="8" Column="45" />
+      <File FileName="PosWeb.Models/Infratructure/EntityMapping.cs" Line="7" Column="9" />
+      <File FileName="PosWeb.Repositories/Infrastructure/PosWebDbContext.cs" Line="14" Column="43" />
+      <File FileName="PosWeb.Repositories/Infrastructure/GenericRepository.cs" Line="71" Column="46" />
+      <File FileName="PosWeb.Repositories/Infrastructure/IGenericRepository.cs" Line="12" Column="33" />
+      <File FileName="PosWeb.Repositories/Infrastructure/IReadonlyRepository.cs" Line="15" Column="53" />
+      <File FileName="PosWeb.Models/Infratructure/IEntity.cs" Line="4" Column="26" />
+      <File FileName="PosWeb.Repositories/Infrastructure/ReadonlyRepository.cs" Line="14" Column="27" />
+      <File FileName="PosWeb.Models/Infratructure/Entity.cs" Line="7" Column="3" />
+      <File FileName="PosWeb.Models/Infratructure/TrackedEntity.cs" Line="13" Column="3" />
+      <File FileName="PosWeb.Repositories/Infrastructure/ReflectionMapper.cs" Line="15" Column="50" />
+      <File FileName="PosWeb/appsettings.json" Line="9" Column="105" />
+      <File FileName="PosWeb/Startup.cs" Line="37" Column="53" />
+      <File FileName="PosWeb/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="PosWeb/Controllers/TestController.cs" Line="22" Column="43" />
+      <File FileName="PosWeb.Services/TestService.cs" Line="20" Column="16" />
+      <File FileName="PosWeb.Repositories/TestRepository.cs" Line="13" Column="2" />
+      <File FileName="PosWeb.Models/TestModel.cs" Line="10" Column="58" />
+      <File FileName="PosWeb.Repositories/Infrastructure/IUnitOfWork.cs" Line="7" Column="3" />
+      <File FileName="PosWeb.Repositories/Infrastructure/UnitOfWork.cs" Line="13" Column="22" />
+      <File FileName="PosWeb/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/adamhakowski/Documents/Projects/PosWeb/PosWeb/Controllers/TestController.cs" relfile="PosWeb/Controllers/TestController.cs" line="22" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PosWeb PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

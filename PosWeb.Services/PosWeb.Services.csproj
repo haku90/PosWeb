@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PosWeb.Repositories\PosWeb.Repositories.csproj" />
+    <ProjectReference Include="..\PosWeb.Models\PosWeb.Models.csproj" />
+  </ItemGroup>
 </Project>
