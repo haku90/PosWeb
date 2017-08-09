@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using PosWeb.Models;
@@ -16,7 +17,7 @@ namespace PosWeb.Repositories.Infrastructure
             get;
             set;
         }
-
+ 
         protected override string GetCurrentUserId()
         {
 			try

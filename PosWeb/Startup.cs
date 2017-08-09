@@ -33,7 +33,12 @@ namespace PosWeb
         {
             // Add framework services.
             services.AddMvc();
-			services.AddDbContext<PosWebDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddEntityFrameworkSqlServer()
+                .AddDbContext<PosWebDbContext>(
+                options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
+                        b => b.MigrationsAssembly("PosWeb")));
+
 			services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient<TestRepository>();
             services.AddTransient<TestService>();
