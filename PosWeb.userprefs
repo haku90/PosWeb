@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="PosWeb/Controllers/TestController.cs">
     <Files>
       <File FileName="PosWeb.Repositories/Infrastructure/PosWebDbContext.cs" Line="2" Column="34" />
-      <File FileName="PosWeb/Controllers/TestController.cs" Line="29" Column="1" />
+      <File FileName="PosWeb/Controllers/TestController.cs" Line="22" Column="46" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
