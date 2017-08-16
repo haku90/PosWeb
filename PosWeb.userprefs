@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{05A1FA1C-AADC-43F6-A69F-7ACAA0F23AAF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PosWeb.Repositories/PosWeb.Repositories.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PosWeb/Controllers/TestController.cs">
     <Files>
       <File FileName="PosWeb.Repositories/Infrastructure/PosWebDbContext.cs" Line="2" Column="34" />
-      <File FileName="PosWeb/Controllers/TestController.cs" Line="19" Column="10" />
-      <File FileName="PosWeb/PosWeb.csproj" Line="61" Column="3" />
-      <File FileName="PosWeb/appsettings.json" Line="7" Column="5" />
-      <File FileName="../../../../../Library/Frameworks/Mono.framework/Versions/5.0.1/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" Line="1980" Column="5" />
-      <File FileName="PosWeb.Repositories/PosWeb.Repositories.csproj" Line="19" Column="14" />
+      <File FileName="PosWeb/Controllers/TestController.cs" Line="29" Column="1" />
+      <File FileName="PosWeb/PosWeb.csproj" Line="43" Column="15" />
+      <File FileName="PosWeb.Repositories/PosWeb.Repositories.csproj" Line="10" Column="1" />
+      <File FileName="PosWeb.Models/PosWeb.Models.csproj" Line="3" Column="1" />
+      <File FileName="PosWeb/Startup.cs" Line="29" Column="39" />
+      <File FileName="PosWeb.Services/TestService.cs" Line="26" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
