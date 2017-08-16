@@ -40,8 +40,8 @@ namespace PosWeb
                         b => b.MigrationsAssembly("PosWeb")));
 
 			services.AddTransient<IUnitOfWork, UnitOfWork>();
-            services.AddTransient<TestRepository>();
-            services.AddTransient<TestService>();
+            services.AddSingleton<TestRepository>();
+            services.AddSingleton<TestService>();
 		}
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
