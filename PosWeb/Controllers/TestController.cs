@@ -20,7 +20,7 @@ namespace PosWeb.Controllers
             try
             {
                 _testService.AddTestObject();
-                return "poong";
+                return "pong";
             }
             catch (Exception ex)
             {
