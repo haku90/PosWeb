@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PosWeb", "PosWeb\PosWeb.csproj", "{05A1FA1C-AADC-43F6-A69F-7ACAA0F23AAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosWeb", "PosWeb\PosWeb.csproj", "{05A1FA1C-AADC-43F6-A69F-7ACAA0F23AAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PosWeb.Models", "PosWeb.Models\PosWeb.Models.csproj", "{428084A9-877D-4B48-B8E5-F6A830FA5F8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosWeb.Services", "PosWeb.Services\PosWeb.Services.csproj", "{079CF40F-C809-4E14-A4FD-25230185D666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PosWeb.Services", "PosWeb.Services\PosWeb.Services.csproj", "{079CF40F-C809-4E14-A4FD-25230185D666}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosWeb.Repositories", "PosWeb.Repositories\PosWeb.Repositories.csproj", "{72FCB748-4314-435D-8569-86F2D2B87266}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PosWeb.Repositories", "PosWeb.Repositories\PosWeb.Repositories.csproj", "{72FCB748-4314-435D-8569-86F2D2B87266}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PosWeb.Models", "PosWeb.Models\PosWeb.Models.csproj", "{18E27F94-2E23-4EBF-B797-F21C150E238E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		{05A1FA1C-AADC-43F6-A69F-7ACAA0F23AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05A1FA1C-AADC-43F6-A69F-7ACAA0F23AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05A1FA1C-AADC-43F6-A69F-7ACAA0F23AAF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{428084A9-877D-4B48-B8E5-F6A830FA5F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{428084A9-877D-4B48-B8E5-F6A830FA5F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{428084A9-877D-4B48-B8E5-F6A830FA5F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{428084A9-877D-4B48-B8E5-F6A830FA5F8B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{079CF40F-C809-4E14-A4FD-25230185D666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{079CF40F-C809-4E14-A4FD-25230185D666}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{079CF40F-C809-4E14-A4FD-25230185D666}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{72FCB748-4314-435D-8569-86F2D2B87266}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72FCB748-4314-435D-8569-86F2D2B87266}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72FCB748-4314-435D-8569-86F2D2B87266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E27F94-2E23-4EBF-B797-F21C150E238E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E27F94-2E23-4EBF-B797-F21C150E238E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E27F94-2E23-4EBF-B797-F21C150E238E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E27F94-2E23-4EBF-B797-F21C150E238E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
